@@ -1,29 +1,26 @@
-*Implémentation de l'algorithme du Page Rank
+#Implementation of the Page Rank algorithm
 
- C'est un algorithme qui permet de calculer un score sur chacun des noeuds d'un graphe, dans le cas des pages wikipédia ou web il permet de savoir à quel point un page est populaire.
+ This algorithm calculates a score for each node of a graph. In the case of wikipedia or web pages, it shows how popular a page is.
 
- 
- **La compilation de notre programme se fait de la manière suivante:
+ ##Compiling the program:
 
-
-- Taper “python3 Baptiste_Buani_Big_Data_Projet/page_rank.py Baptiste_Buani_Big_Data_Projet/paths_finished.tsv ” dans le terminal
-(si vous vous trouvez dans le répertoire au-dessus de notre archive comme dans le cas précédent vous pourrez exécutez la même commande)
+- Type "python3 Baptiste_Buani_Big_Data_Projet/page_rank.py Baptiste_Buani_Big_Data_Projet/paths_finished.tsv " in the terminal
+(if you're in the directory above our archive, as in the previous case, you can run the same command)
 
 
-- sinon placez vous dans le répertoire de notre archive est tapez python3 page_rank.py paths_finished.tsv 
+- if not, go to our archive directory and type python3 page_rank.py paths_finished.tsv 
 
 
-Ensuite suivez les instructions du programme :
+Then follow the program instructions:
 
 
-- 1. Choisir le nombre de pages que vous voulez afficher par ordre de score pagerank décroissant
+- 1. choose the number of pages you want to display in descending pagerank order
+
+- 2. choose the *damping factor*
+
+- 3. choose the type of Page Rank you wish to apply 
+         1: Classic Page Rank 
+         2: Custom Page Rank". 
 
 
-- 2. Choisir le damping Factor
-
-- 3. Choisir le type de Page Rank que vous voulez appliquer 
-         1: Page Rank Classique ” 
-         2: Page Rank Personnalisé” 
-
-
-- 4. Si la deuxième option est sélectionnée vous aurez la possibilité de donner de l’importance aux pages contenant des mots que vous aurez saisis au clavier séparé par un espace
+- 4. if the second option is selected, you'll be able to give *importance to pages containing words you've typed*, separated by a space.
