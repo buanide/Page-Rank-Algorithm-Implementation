@@ -1,8 +1,8 @@
-#Implementation of the Page Rank algorithm
+# Implementation of the Page Rank algorithm
 
  This algorithm calculates a score for each node of a graph. In the case of wikipedia or web pages, it shows how popular a page is.
 
- ##Compiling the program:
+ ## Compiling the program:
 
 - Type "python3 Baptiste_Buani_Big_Data_Projet/page_rank.py Baptiste_Buani_Big_Data_Projet/paths_finished.tsv " in the terminal
 (if you're in the directory above our archive, as in the previous case, you can run the same command)
