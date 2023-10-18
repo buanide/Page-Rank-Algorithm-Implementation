@@ -19,8 +19,8 @@ Then follow the program instructions:
 2. choose the *damping factor*
 
 3. choose the type of Page Rank you wish to apply 
-         - 1: Classic Page Rank 
-         - 2: Custom Page Rank". 
+         -1. Classic Page Rank 
+         -2.Custom Page Rank". 
 
 
 4. if the second option is selected, you'll be able to give *importance to pages containing words you've typed*, separated by a space.
