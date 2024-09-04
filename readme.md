@@ -11,16 +11,15 @@
 - if not, go to our archive directory and type python3 page_rank.py paths_finished.tsv 
 
 
-Then follow the program instructions:
+Then follow the program instructions: <br>
 
+1. choose the number of pages you want to display in descending pagerank order <br>
 
-1. choose the number of pages you want to display in descending pagerank order
+2. choose the *damping factor* <br>
 
-2. choose the *damping factor*
-
-3. choose the type of Page Rank you wish to apply 
-         - 1. Classic Page Rank 
-         - 2.Custom Page Rank". 
+3. choose the type of Page Rank you wish to apply : <br>
+         - 1. Classic Page Rank <br>
+         - 2.Custom Page Rank". <br>
 
 
 4. if the second option is selected, you'll be able to give *importance to pages containing words you've typed*, separated by a space.
